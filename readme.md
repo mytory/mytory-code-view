@@ -9,3 +9,5 @@ I tried line breaking. But line breaked code is hell, too.
 So I decided to send code to new window. New window has wide viewport, syntax highlighting. 
 
 This plugin add "open new window for this code" link to above of all `pre` block.
+
+* [Demo](http://mytory.net/archives/10517)
