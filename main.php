@@ -7,7 +7,11 @@ Version: 1.0
 Author URI: http://mytory.net
 */
 function mcv_script(){
-    wp_enqueue_script('mytory-code-view', plugin_dir_url(__FILE__) . 'js.js', array('jquery'), '1.0', true);
+    $lang = 'en';
+    if(get_bloginfo('language') == 'ko-KR'){
+        $lang = 'ko-KR';
+    }
+    wp_enqueue_script('mytory-code-view', plugin_dir_url(__FILE__) . $lang . '.js', array('jquery'), '1.0', true);
 }
 add_action('wp_enqueue_scripts', 'mcv_script');
 
