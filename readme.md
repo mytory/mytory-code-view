@@ -10,4 +10,4 @@ So I decided to send code to new window. New window has wide viewport, syntax hi
 
 This plugin add "open new window for this code" link to above of `pre` block that has horizontal scroll.
 
-* [Demo](http://mytory.net/archives/10517)
+* [Demo](http://mytory.net/archives/10474)
